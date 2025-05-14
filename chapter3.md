@@ -881,8 +881,72 @@ Basándonos en los datos recopilados a través de las entrevistas y el posterior
 |Product Traceability|Información verificable sobre el origen, producción y manejo de los productos agrícolas.|Agrega valor a los productos y fortalece la confianza de los compradores.|
 |AgroMercado Ambassador|Usuario reconocido dentro de la comunidad que promueve la plataforma y brinda asistencia local.|Fomenta la adopción orgánica y refuerza la presencia de AgroMercado en zonas rurales.|
 |Referral Program|Programa que incentiva a los usuarios a invitar nuevos productores o compradores a la plataforma.|Favorece el crecimiento orgánico de la base de usuarios mediante redes comunitarias.|
+### 3. Capítulo III: Especificación de Requisitos
+#### 3.1. To-Be Scenario Mapping.
 
-# 3. Capítulo III: Especificación de Requisitos
+- 3.1.1. To-Be Scenario Mapping productores agrícolas
+<img  src="Assets/tobe1.png"  alt="To Be map 01"  min-width="400"  max-width="900"/>
+- 3.1.2. To-Be Scenario Mapping compradores
+<img  src="Assets/tobe2.png"  alt="To Be map 02"  min-width="400"  max-width="900"/>
+#### 3.2. Historias de usuario.
+Las historias de usuario constituyen una herramienta fundamental para traducir las necesidades del usuario en requisitos funcionales claros y comprensibles para el equipo de desarrollo. A través de este formato, se describe de manera concisa qué funcionalidad se debe implementar, para quién está dirigida y cuál es el valor que aporta al producto. En el caso de AgroMercado, Neuronet ha elaborado un conjunto de historias de usuario que guían el diseño y desarrollo de la plataforma web, abarcando desde la construcción de la landing page hasta las funcionalidades específicas de publicación, compra, gestión de pedidos y visualización de métricas, todo ello orientado a satisfacer los requerimientos reales de productores y compradores del sector agrícola.
 
-### 3.1. To-Be Scenario Mapping.
-### <a name="_heading=h.yzce2r2ygyfm"></a>**3.1.1. To-Be Scenario Mapping productores agrícolas**
+| **ID - US** | **Título**                        | **Descripción**                                                                                     | **Criterios de aceptación**                                                                                                   | **Épica**               |
+|-------------|-----------------------------------|-----------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-------------------------|
+| HU01        | Registrarme                       | Como nuevo usuario quiero registrarme con un solo formulario para poder comprar o vender en AgroMercado | Dado que un visitante acceda al formulario de registro, cuando complete los campos requeridos y envíe el formulario, entonces se creará una cuenta válida | EP02 – Autenticación   |
+| HU02        | Iniciar sesión                    | Como usuario registrado quiero ingresar con mis credenciales para acceder a mi cuenta              | Dado que el usuario tenga una cuenta creada, cuando ingrese su correo y contraseña correctos, entonces accederá al panel de usuario | EP02 – Autenticación   |
+| HU03        | Cerrar sesión                     | Como usuario autenticado quiero cerrar sesión de forma segura para proteger mi información personal | Dado que el usuario esté en sesión, cuando haga clic en "Cerrar sesión", entonces el sistema lo redirigirá a la pantalla de inicio | EP02 – Autenticación   |
+| HU04        | Editar perfil                     | Como usuario registrado quiero modificar mis datos personales para mantener mi información actualizada | Dado que el usuario acceda a su perfil, cuando edite y guarde los datos, entonces el sistema mostrará los cambios confirmados | EP07 – Perfil           |
+| HU05        | Publicar producto                 | Como productor agrícola quiero registrar un producto para que compradores puedan verlo en el catálogo | Dado que el usuario acceda al formulario de publicación, cuando complete la información y publique, entonces el producto se mostrará en el catálogo | EP03 – Publicación     |
+| HU06        | Editar publicación                | Como productor quiero modificar una publicación existente para corregir errores o actualizar datos | Dado que tenga publicaciones activas, cuando acceda a "Editar" y guarde los cambios, entonces se actualizará la publicación en el catálogo | EP03 – Publicación     |
+| HU07        | Eliminar publicación              | Como productor quiero eliminar un producto publicado para evitar recibir pedidos de productos no disponibles | Dado que tenga una publicación activa, cuando seleccione "Eliminar", entonces la publicación será retirada del catálogo | EP03 – Publicación     |
+| HU08        | Buscar productos                  | Como comprador quiero buscar productos por filtros para encontrar fácilmente lo que necesito       | Dado que el usuario esté autenticado, cuando use filtros de búsqueda, entonces verá una lista con los productos que coincidan | EP04 – Compra           |
+| HU09        | Enviar pedido                     | Como comprador quiero enviar un pedido desde la ficha de producto para iniciar una transacción de compra | Dado que el usuario seleccione un producto, cuando complete el formulario de pedido, entonces el productor recibirá la solicitud | EP04 – Compra           |
+| HU10        | Recibir pedido                    | Como productor quiero recibir notificaciones de pedidos para gestionarlos eficientemente           | Dado que un comprador envíe un pedido, cuando el sistema reciba la orden, entonces se mostrará en la sección "Mis ventas" | EP05 – Gestión de pedidos |
+| HU11        | Aceptar o rechazar pedido         | Como productor quiero aceptar o rechazar pedidos recibidos para tener control sobre mis ventas     | Dado que reciba un nuevo pedido, cuando acceda a "Mis ventas", entonces podrá aceptar o rechazar el pedido desde el sistema | EP05 – Gestión de pedidos |
+| HU12        | Ver historial de pedidos          | Como usuario quiero consultar el historial de pedidos realizados o recibidos para controlar mis transacciones | Dado que tenga pedidos previos, cuando acceda a "Mis compras" o "Mis ventas", entonces verá la lista con estado y detalle de cada pedido | EP05 – Gestión de pedidos |
+| HU13        | Calificar transacción             | Como comprador o productor quiero calificar a la otra parte para fomentar la confianza en la comunidad | Dado que se complete una entrega, cuando el usuario acceda al detalle del pedido, entonces podrá dejar una calificación con comentario | EP06 – Reputación       |
+| HU14        | Ver interfaz según rol activo     | Como usuario registrado quiero ver solo las secciones relevantes a mis acciones para tener una experiencia clara y optimizada | Dado que no tenga publicaciones, cuando inicie sesión, entonces verá la interfaz de comprador; si publica, se activará también la interfaz de vendedor | EP08 – Interfaz dinámica |
+| HU15        | Visualizar resumen en panel       | Como usuario registrado quiero tener un panel resumen de mis actividades recientes para ver de un vistazo mis ventas, compras y notificaciones | Dado que esté autenticado, cuando acceda al panel principal, entonces verá bloques con publicaciones, pedidos, mensajes y calificaciones | EP08 – Interfaz dinámica |
+| HU16        | Ver información de AgroMercado    | Como visitante de la landing page quiero conocer el propósito de AgroMercado para entender cómo funciona la plataforma y qué soluciones ofrece | Dado que acceda a la landing, cuando navegue por “¿Qué es AgroMercado?”, entonces verá contenido que explique su propósito y beneficios | EP01 – Landing Page     |
+| HU17        | Ver los beneficios de la plataforma | Como visitante de la landing page quiero identificar los beneficios como comprador o vendedor para decidir si registrarme y participar | Dado que esté en la sección “¿A quién va dirigido?”, cuando seleccione un perfil, entonces verá beneficios específicos por rol | EP01 – Landing Page     |
+| HU18        | Acceder al login desde la landing | Como visitante de la landing page quiero ingresar fácilmente a mi cuenta desde un botón visible para acceder rápidamente a mis funcionalidades | Dado que esté en la landing, cuando pulse “Iniciar sesión”, entonces será redirigido al formulario de inicio de sesión | EP01 – Landing Page     |
+| HU19        | Acceder al registro desde la landing | Como visitante de la landing page quiero registrarme directamente desde la página principal para comenzar a usar AgroMercado de inmediato | Dado que se encuentre en la landing, cuando pulse “Registrarse ahora”, entonces el sistema mostrará el formulario de registro | EP01 – Landing Page     |
+| HU20        | Conocer al equipo detrás del proyecto | Como visitante de la landing page quiero conocer quién está detrás de AgroMercado para generar confianza y transparencia | Dado que acceda a la sección “Conócenos”, cuando visualice el bloque del equipo, entonces podrá ver nombres, fotos y roles | EP01 – Landing Page     |
+| HU21        | Ver sección de contacto o ayuda rápida | Como visitante de la landing page quiero encontrar fácilmente opciones de contacto para resolver dudas antes de registrarme | Dado que tenga una duda, cuando acceda al footer o header, entonces verá botones o enlaces hacia soporte o preguntas frecuentes | EP01 – Landing Page     |
+
+### 3.3. Mapeo de impacto.
+
+<img  src="Assets/Impact map 1.png"  alt="To Be map 02"  min-width="400"  max-width="900"/>
+
+<br/>
+
+Enlace para acceder a [UXPressia](https://uxpressia.com/w/0zjVz/p/K12gT/i/ArHxk)
+
+### 3.4. Product Backlog.
+
+# Orden de User Stories
+
+| #  | UserStoryId | Título                                | Descripción                                                                                             | StoryPoints |
+|----|-------------|----------------------------------------|----------------------------------------------------------------------------------------------------------|-------------|
+| 01 | HU01        | Registrarme                            | Como nuevo usuario Quiero registrarme con un solo formulario Para poder comprar o vender en AgroMercado | 3           |
+| 02 | HU02        | Iniciar sesión                         | Como usuario registrado Quiero ingresar con mis credenciales Para acceder a mi cuenta                   | 2           |
+| 03 | HU03        | Cerrar sesión                          | Como usuario autenticado Quiero cerrar sesión de forma segura Para proteger mi información personal     | 1           |
+| 04 | HU04        | Editar perfil                          | Como usuario registrado Quiero modificar mis datos personales Para mantener mi información actualizada  | 3           |
+| 05 | HU05        | Publicar producto                      | Como productor agrícola Quiero registrar un producto Para que compradores puedan verlo en el catálogo   | 5           |
+| 06 | HU06        | Editar publicación                     | Como productor Quiero modificar una publicación existente Para corregir errores o actualizar datos      | 3           |
+| 07 | HU07        | Eliminar publicación                   | Como productor Quiero eliminar un producto publicado Para evitar recibir pedidos de productos no disponibles | 2       |
+| 08 | HU08        | Buscar productos                       | Como comprador Quiero buscar productos por filtros Para encontrar fácilmente lo que necesito            | 5           |
+| 09 | HU09        | Enviar pedido                          | Como comprador Quiero enviar un pedido desde la ficha de producto Para iniciar una transacción de compra | 3          |
+| 10 | HU10        | Recibir pedido                         | Como productor Quiero recibir notificaciones de pedidos Para gestionarlos eficientemente                | 3           |
+| 11 | HU11        | Aceptar o rechazar pedido              | Como productor Quiero aceptar o rechazar pedidos recibidos Para tener control sobre mis ventas          | 3           |
+| 12 | HU12        | Ver historial de pedidos               | Como usuario Quiero consultar el historial de pedidos realizados o recibidos Para controlar mis transacciones | 3       |
+| 13 | HU13        | Calificar transacción                  | Como comprador o productor Quiero calificar a la otra parte Para fomentar la confianza en la comunidad  | 2           |
+| 14 | HU14        | Interfaz dinámica por rol              | Como usuario Quiero que se muestren solo las secciones que necesito Para tener una experiencia clara y optimizada | 5     |
+| 15 | HU15        | Panel resumen                          | Como usuario registrado Quiero ver un resumen de mis publicaciones, pedidos y calificaciones Para tener control rápido | 5 |
+| 16 | HU16        | Ver información de AgroMercado        | Como visitante de la landing page Quiero conocer el propósito de AgroMercado Para entender cómo funciona la plataforma y qué soluciones ofrece | 2 |
+| 17 | HU17        | Ver los beneficios de la plataforma    | Como visitante de la landing page Quiero identificar los beneficios como comprador o vendedor Para decidir si registrarme y participar | 2 |
+| 18 | HU18        | Acceder al login desde la landing      | Como visitante de la landing page Quiero ingresar fácilmente a mi cuenta desde un botón visible Para acceder rápidamente a mis funcionalidades | 1 |
+| 19 | HU19        | Acceder al registro desde la landing   | Como visitante de la landing page Quiero registrarme directamente desde la página principal Para comenzar a usar AgroMercado de inmediato | 1 |
+| 20 | HU20        | Conocer al equipo detrás del proyecto  | Como visitante de la landing page Quiero conocer quién está detrás de AgroMercado Para generar confianza y transparencia | 2 |
+| 21 | HU21        | Ver sección de contacto o ayuda rápida | Como visitante de la landing page Quiero encontrar fácilmente opciones de contacto Para resolver dudas antes de registrarme | 2 |
