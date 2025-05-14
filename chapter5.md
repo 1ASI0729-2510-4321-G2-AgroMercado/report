@@ -1771,11 +1771,18 @@ El desarrollo del proyecto AgroMercado permitió estructurar una solución tecno
 
 ## Referencias:
 Instituto Nacional de Estadística e Informática (INEI). (2022). Encuesta Nacional Agropecuaria 2022. Recuperado de https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1912/libro.pdf
+
 Ministerio de la Producción. (2024). Sector Restaurantes y afines en la economía nacional. Recuperado de https://www.producempresarial.pe/wp-content/uploads/2025/02/234-Sector-restaurantes-y-afines-2024.pdf
+
 Ministerio de la Producción (PRODUCE). (2022). Estadísticas del sector manufactura. Recuperado de https://ogeiee.produce.gob.pe/index.php/en/informacion-sectorial/manufactura/itemlist/category/24-estadistica
- PROMPERÚ. (2022). Exportemos: El portal oficial sobre exportaciones peruanas. Recuperado de https://www.siicex.gob.pe/
+
+PROMPERÚ. (2022). Exportemos: El portal oficial sobre exportaciones peruanas. Recuperado de https://www.siicex.gob.pe/
+
 FAO. (2023). Transforming food systems for better production and nutrition. Organización de las Naciones Unidas para la Alimentación y la Agricultura. https://www.fao.org/documents/card/en/c/cc4494en
+
 Instituto Nacional de Estadística e Informática (INEI). (2022). Encuesta Nacional Agropecuaria 2022. https://www.inei.gob.pe/media/MenuRecursivo/publicaciones_digitales/Est/Lib1912/libro.pdf
+
 Ministerio de la Producción. (2024). Sector Restaurantes y Abastecimiento Alimentario. https://www.produce.gob.pe
+
 The Yield Lab. (2023). AgTech Adoption and Small Farmers in Latin America. https://theyieldlab.com/agtech-latin-america-2023
 
