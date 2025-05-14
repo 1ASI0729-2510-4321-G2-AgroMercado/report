@@ -882,13 +882,18 @@ Basándonos en los datos recopilados a través de las entrevistas y el posterior
 |AgroMercado Ambassador|Usuario reconocido dentro de la comunidad que promueve la plataforma y brinda asistencia local.|Fomenta la adopción orgánica y refuerza la presencia de AgroMercado en zonas rurales.|
 |Referral Program|Programa que incentiva a los usuarios a invitar nuevos productores o compradores a la plataforma.|Favorece el crecimiento orgánico de la base de usuarios mediante redes comunitarias.|
 ### 3. Capítulo III: Especificación de Requisitos
-#### 3.1. To-Be Scenario Mapping.
+### 3.1. To-Be Scenario Mapping.
 
-- 3.1.1. To-Be Scenario Mapping productores agrícolas
+#### 3.1.1. To-Be Scenario Mapping productores agrícolas
+
 <img  src="Assets/tobe1.png"  alt="To Be map 01"  min-width="400"  max-width="900"/>
-- 3.1.2. To-Be Scenario Mapping compradores
+
+#### 3.1.2. To-Be Scenario Mapping compradores
+
 <img  src="Assets/tobe2.png"  alt="To Be map 02"  min-width="400"  max-width="900"/>
+
 #### 3.2. Historias de usuario.
+
 Las historias de usuario constituyen una herramienta fundamental para traducir las necesidades del usuario en requisitos funcionales claros y comprensibles para el equipo de desarrollo. A través de este formato, se describe de manera concisa qué funcionalidad se debe implementar, para quién está dirigida y cuál es el valor que aporta al producto. En el caso de AgroMercado, Neuronet ha elaborado un conjunto de historias de usuario que guían el diseño y desarrollo de la plataforma web, abarcando desde la construcción de la landing page hasta las funcionalidades específicas de publicación, compra, gestión de pedidos y visualización de métricas, todo ello orientado a satisfacer los requerimientos reales de productores y compradores del sector agrícola.
 
 | **ID - US** | **Título**                        | **Descripción**                                                                                     | **Criterios de aceptación**                                                                                                   | **Épica**               |
