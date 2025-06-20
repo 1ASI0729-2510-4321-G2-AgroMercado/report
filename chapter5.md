@@ -1765,6 +1765,272 @@ En el sprint 1 se alcanzó un desarrollo parcial en la implementación del despl
 |--------------------|-----------|
 | Horna Silva Fabio  | Durante este sprint desarrollé las funcionalidades esenciales de AgroMercado. Me enfoqué en el diseño de la landing page, incorporando secciones informativas, beneficios diferenciados para compradores y vendedores, contacto y presentación del equipo. Implementé los formularios de registro e inicio de sesión, junto con la lógica de cierre de sesión. También definí las User Stories principales, elaboré el Sprint Backlog con estimaciones realistas y realicé pruebas BDD con Cucumber para validar el correcto funcionamiento. Estas tareas me permitieron sentar las bases del MVP y asegurar una experiencia inicial clara, simple y funcional para los usuarios de la plataforma. |
 
+## 5.2.2. Sprint 2
+
+### 5.2.2.1. Sprint Planning 2
+
+**Sprint #:** Sprint 2  
+**Date:** 30/04/25  
+**Time:** 16:00  
+**Location:** Modalidad remota por Discord  
+**Prepared By:** Integrantes de AgroMercado  
+**Attendees:**
+- Alejos Jesus, Anyelo Bill  
+- Horna Silva, Fabio Ernesto  
+- Joaquin Andre Lechuga Aguilar
+
+---
+
+### Sprint 2 - Review Summary
+
+Durante el primer Sprint, se tuvo como objetivo el desarrollo de las funcionalidades básicas del backend, enfocadas en el soporte a la plataforma AgroMercado. Se trabajó en:
+
+- Configuración de la base de datos y conexión con MySQL Docker.
+- Desarrollo de los principales módulos: seguridad, catálogo de productos, pedidos, ventas, calificaciones y dashboard.
+- Despliegue y pruebas básicas del API REST.
+
+En síntesis, se lograron los objetivos propuestos para el Sprint.
+
+---
+
+### Sprint 2 - Retrospective Summary
+
+- **Fortalezas:** Se mantuvo una comunicación excelente entre los integrantes del equipo gracias a la modalidad remota (Discord), lo que permitió entregar las funcionalidades a tiempo.  
+- **Aspectos a mejorar:** Se identificó la necesidad de mejorar la organización interna y la gestión de tiempo para evitar trabajar al límite del deadline en futuras entregas.  
+- **Acciones de mejora:** Se acordó perfeccionar la estimación de esfuerzo para las User Stories y realizar un seguimiento más estricto del avance para asegurar un flujo de trabajo estable y sostenible.
+
+---
+
+### Sprint Goal & User Stories
+
+- **Sprint 2 goal:** Consolidar las funcionalidades iniciales del backend que permitan registrar usuarios, gestionar productos, realizar pedidos, registrar ventas, calificar transacciones y consolidar la información en un dashboard.
+
+Esto proporcionará una base funcional sólida para el desarrollo futuro del sistema AgroMercado.
+
+- **Sprint 2 Velocity:** 25  
+- **Sum of Story Points:** 25
+
+---
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+| Alumno                         | Actividad                                                                 |
+|-------------------------------|---------------------------------------------------------------------------|
+| Fabio Horna Silva             | Desarrollo del formulario de publicación de productos y gestión de catálogo |
+| Anyelo Bill Alejos Jesus      | Implementación del sistema de búsqueda con filtros y lógica de pedidos     |
+| Joaquín Lechuga Aguilar       | Integración visual de las vistas de producto y redirección tras pedido enviado |
+
+---
+
+### 5.2.2.3. Sprint Backlog 2
+
+| Id   | Título de la HU         | Id Tarea | Título de la Tarea                  | Descripción                                        | Estimación (Horas) | Asignado a     | Estado |
+|------|--------------------------|----------|-------------------------------------|----------------------------------------------------|---------------------|----------------|--------|
+| HU01 | Registrarme              | T01      | Endpoint registro de usuarios       | Implementar API REST para crear nuevos usuarios    | 3                   | Fabio Horna    | Done   |
+| HU02 | Iniciar sesión           | T02      | Endpoint login de usuarios          | Implementar API REST para login mediante credenciales | 3               | Fabio Horna    | Done   |
+| HU03 | Cerrar sesión            | T03      | Servicio logout                     | Implementar logout eliminando sesión de usuario    | 2                   | Fabio Horna    | Done   |
+| HU05 | Publicar producto        | T04      | API para crear producto             | Crear endpoints para registrar productos agrícolas | 4                   | Fabio Horna    | Done   |
+| HU06 | Editar publicación       | T05      | API para editar producto            | Permitir edición de datos de productos publicados  | 3                   | Fabio Horna    | Done   |
+| HU09 | Enviar pedido            | T08      | API para crear pedidos              | Permitir que compradores envíen pedidos a productores | 4                | Fabio Horna    | Done   |
+| HU10 | Recibir pedido           | T09      | Notificación de nuevos pedidos      | Notificar a vendedores de nuevos pedidos recibidos | 2                   | Fabio Horna    | Done   |
+| HU11 | Aceptar o rechazar pedido| T10      | Gestión de estado de pedidos        | Permitir a vendedores aceptar o rechazar pedidos  | 3                   | Fabio Horna    | Done   |
+| HU12 | Ver historial de pedidos | T11      | Listado histórico de pedidos        | Consultar compras y ventas pasadas                 | 3                   | Fabio Horna    | Done   |
+| HU13 | Calificar transacción    | T12      | API para calificar productos/usuarios | Permitir calificar después de una transacción exitosa | 3             | Fabio Horna    | Done   |
+
+---
+
+### 5.2.2.4. Development Evidence for Sprint Review
+
+| Repository     | Branch | Commit ID | Author         | Message                          |
+|----------------|--------|-----------|----------------|----------------------------------|
+| Landing Page   | Main   |           | Fabio Horna    | Módulo de publicación completo   |
+|                | Main   |           | Anyelo Alejos  | Funcionalidad de filtros integrada |
+| Web Application| Main   |           | Joaquin Lechuga| Lógica de envío de pedidos finalizada |
+
+---
+
+### 5.2.2.5. Execution Evidence for Sprint Review
+
+Se crearon endpoints para:
+
+- Registro de usuarios
+- Login y logout
+- Publicación, edición y eliminación de productos
+- Envío y recepción de pedidos
+- Gestión del estado del pedido
+- Calificación de transacciones
+- Listado histórico de pedidos
+
+Repositorio Backend:  
+https://github.com/1ASI0729-2510-4321-G2-AgroMercado/AgroMercado-Backend.git
+
+---
+
+### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+- **Frontend:**  
+  https://github.com/1ASI0729-2510-4321-G2-AgroMercado/AgroMercado-Frontend.git
+
+- **Backend:**  
+  https://github.com/1ASI0729-2510-4321-G2-AgroMercado/AgroMercado-Backend.git
+
+---
+
+### 5.2.2.8. Team Collaboration Insights during Sprint
+
+| Alumno                | Actividad                                                                 |
+|-----------------------|---------------------------------------------------------------------------|
+| Fabio Horna Silva     | Desarrollo del formulario y APIs REST para productos, pedidos, login/logout |
+| Anyelo Alejos Jesus   | Implementación búsqueda, API pedidos, pruebas integración                 |
+| Joaquín Lechuga Aguilar | Despliegue, pruebas funcionales, documentación de endpoints              |
+
+---
+
+## 5.2.3. Sprint 3
+
+### 5.2.3.1. Sprint Planning 3
+
+**Sprint #:** Sprint 3  
+**Date:** 07/05/25  
+**Time:** 16:00  
+**Location:** Modalidad remota por Discord  
+**Prepared By:** Integrantes de AgroMercado  
+**Attendees:**
+- Alejos Jesus, Anyelo Bill  
+- Horna Silva, Fabio Ernesto  
+- Joaquin Andre Lechuga Aguilar
+
+---
+
+### Sprint 3 - Review Summary
+
+Durante el segundo Sprint se completaron los endpoints de autenticación, gestión de productos y pedidos. Se desplegaron los primeros módulos funcionales del backend con conexión a base de datos Dockerizada, y se implementaron las interfaces para publicación y búsqueda de productos.
+
+---
+
+### Sprint 3 - Retrospective Summary
+
+- **Fortalezas:** Buena comunicación y distribución correcta de tareas.  
+- **Debilidades:** Oportunidades de mejora en la organización del tiempo.  
+- **Acciones de mejora:** Estimaciones más precisas y reuniones más frecuentes.
+
+---
+
+### Sprint Goal & User Stories
+
+- **Sprint 3 goal:** Finalizar la integración de funciones transaccionales y gestión de reputación para completar el núcleo funcional mínimo viable de AgroMercado.
+
+- **Sprint 3 Velocity:** 30  
+- **Sum of Story Points:** 30
+
+---
+
+### 5.2.3.2. Aspect Leaders and Collaborators
+
+| Alumno                     | Actividad                                                                 |
+|----------------------------|---------------------------------------------------------------------------|
+| Fabio Horna Silva          | APIs para calificaciones, historial de pedidos, mejoras de endpoints     |
+| Anyelo Bill Alejos Jesus   | Notificación de pedidos, mejoras en login                                |
+| Joaquín Lechuga Aguilar    | Interfaz para historial y componentes visuales de calificación           |
+
+---
+
+### 5.2.3.3. Sprint Backlog 3
+
+| Id   | Título de la HU                | Id Tarea | Título de la Tarea                | Descripción                                               | Estimación (Horas) | Asignado a        | Estado |
+|------|--------------------------------|----------|-----------------------------------|-----------------------------------------------------------|---------------------|-------------------|--------|
+| HU10 | Recibir pedido                 | T10      | Notificación de nuevos pedidos    | Mostrar al productor las solicitudes recibidas            | 3                   | Fabio Horna       | Done   |
+| HU11 | Aceptar o rechazar pedido      | T11      | Gestión de estado de pedido       | Aceptar o rechazar desde la vista del productor           | 3                   | Fabio Horna       | Done   |
+| HU12 | Ver historial de pedidos       | T12      | Historial de transacciones        | Mostrar historial de pedidos enviados o recibidos         | 2                   | Anyelo Alejos     | Done   |
+| HU13 | Calificar transacción          | T13      | Calificación tras pedido          | Valorar una transacción completada                        | 3                   | Anyelo Alejos     | Done   |
+| HU14 | Ver interfaz según rol activo  | T14      | Vista dinámica por rol            | Vista cambia según rol (comprador/productor)              | 4                   | Joaquin Lechuga   | Done   |
+| HU15 | Visualizar resumen en el panel | T15      | Panel de actividad del usuario    | Mostrar resumen de compras, ventas y calificaciones       | 5                   | Joaquin Lechuga   | Done   |
+
+---
+
+### 5.2.3.4. Development Evidence for Sprint Review
+
+| Repository     | Branch | Commit ID | Author           | Message                                         |
+|----------------|--------|-----------|------------------|-------------------------------------------------|
+| Web Application| Main   |           | Fabio Horna      | Implementación del historial de pedidos         |
+|                | Main   |           | Anyelo Alejos    | Lógica de calificación de transacciones         |
+| Web Application| Main   |           | Joaquin Lechuga  | Vista dinámica y panel resumen                  |
+
+---
+
+### 5.2.3.5. Execution Evidence for Sprint Review
+
+Se desarrollaron endpoints REST para:
+
+- Recepción de pedidos por parte del productor.
+- Gestión del estado de los pedidos (aceptar o rechazar).
+- Visualización del historial de transacciones.
+- Calificaciones posteriores a la transacción.
+- Adaptación visual según rol.
+- Panel de resumen de actividad.
+
+Repositorio Backend:  
+https://github.com/1ASI0729-2510-4321-G2-AgroMercado/AgroMercado-Backend.git
+
+---
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+- **Frontend:**  
+  https://github.com/1ASI0729-2510-4321-G2-AgroMercado/AgroMercado-Frontend.git  
+- **Backend:**  
+  https://github.com/1ASI0729-2510-4321-G2-AgroMercado/AgroMercado-Backend.git
+
+---
+
+### 5.2.3.8. Team Collaboration Insights during Sprint
+
+| Alumno                   | Actividad                                                                 |
+|--------------------------|---------------------------------------------------------------------------|
+| Fabio Horna Silva        | Endpoints para historial, estado y lógica de recepción de pedidos        |
+| Anyelo Alejos Jesus      | Lógica de calificación, vista dinámica, validación de flujos             |
+| Joaquín Lechuga Aguilar  | Panel de resumen, interfaz según rol, pruebas visuales del historial     |
+
+---
+
+## 5.3. Validation Interviews
+
+Entrevistas para obtener retroalimentación de usuarios objetivo (productores y compradores).
+
+---
+
+### 5.3.1. Diseño de Entrevistas
+
+**Objetivo general:** Validar usabilidad, funcionalidad y valor percibido de AgroMercado.  
+**Metodología:** Entrevistas semi-estructuradas con escalas de satisfacción (1 al 5), observación directa.
+
+#### Preguntas a Productores
+
+- ¿Le fue sencillo registrarse y crear su cuenta?
+- ¿Cómo definiría el proceso de publicación?
+- ¿Entendió los datos requeridos (cantidad, precio, ubicación)?
+- ¿Fue notificado al recibir un pedido?
+- ¿Pudo aceptar o rechazar pedidos sin dificultad?
+- ¿Considera útil el historial de ventas?
+- ¿Confía en recibir pedidos desde la plataforma?
+- ¿Le parece útil el sistema de calificaciones?
+- ¿Le resultó útil el panel de resumen?
+- ¿Usaría frecuentemente esta plataforma?
+
+#### Preguntas a Compradores
+
+- ¿Encontró fácilmente productos con búsqueda/filtros?
+- ¿Fue clara la información de las publicaciones?
+- ¿Fue sencillo enviar un pedido?
+- ¿Recibió confirmación del pedido?
+- ¿La vista como comprador fue útil?
+- ¿Fue útil el historial de pedidos?
+- ¿Pudo calificar al productor? ¿Cómo fue?
+- ¿Ayuda el sistema de reputación a confiar más?
+- ¿Recomendaría esta plataforma?
+- ¿Qué mejoraría para facilitar la compra?
+
+
 ## Conclusiones y recomendaciones. 
 
 El desarrollo del proyecto AgroMercado permitió estructurar una solución tecnológica enfocada en mejorar el comercio agrícola rural mediante la conexión directa entre productores y compradores, reduciendo la dependencia de intermediarios y mejorando los ingresos de los agricultores. A través del análisis de usuarios, el modelado de dominio, la definición arquitectónica y el diseño de interfaces accesibles, se validó que la plataforma responde a las necesidades reales del sector, considerando las limitaciones de conectividad y la baja experiencia digital de los usuarios. Asimismo, se diseñaron flujos simples, funciones clave como reputación, historial de ventas y alertas de compra, y se validaron mediante entrevistas estructuradas, confirmando la viabilidad y pertinencia de AgroMercado como una herramienta de digitalización inclusiva para el agro peruano.
