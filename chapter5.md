@@ -2043,17 +2043,74 @@ Para ello, se consideraron distintos perfiles: productores agropecuarios de zona
 
 | Entrevista 1        | Rosa Huaman                      |
 |---------------------|----------------------------------|
-| **Artefacto**       | Diego Morales                    |
-| **Edad**            | Mobile                           |
-| **Ocupación**       | 54                               |
-| **Distrito**        | Comerciante de abarrotes         |
-| **Fecha**           | Lima                             |
-|                     | 10-05-2025                       |
+| **Artefacto**       | web                   |
+| **Edad**            | 38                           |
+| **Ocupación**       | Productora de papas                               |
+| **Distrito**        | Ayacucho         |
+| **Fecha**           | 10-05-2025                             |
+| <img width=520 src="Assets/Entrevista51.PNG"/>                    | Edwin es un joven agricultor que cultiva lechuga y acelga para mercados locales. Evaluó AgroMercado positivamente, destacando lo intuitivo del proceso para publicar y editar productos. Agradeció que la plataforma lo notifica al instante cuando recibe pedidos. Considera que el historial y las calificaciones ayudan a generar confianza y seriedad en las transacciones. Propuso que se agregue una opción para duplicar publicaciones anteriores.                       |
 | **URL de la grabación**  | Ver grabacion               |
-| **Timming**         | 10-05-2025                       |
+| **Timming**         | 0:00 – 4:12                       |
 
 
+| Entrevista 2        | Edwin Ccanto                      |
+|---------------------|----------------------------------|
+| **Artefacto**       | web                   |
+| **Edad**            | 33                           |
+| **Ocupación**       | Agricultor de hortalizas                               |
+| **Distrito**        | Cusco         |
+| **Fecha**           | 11-05-2025                             |
+| <img width=520 src="Assets/Entrevista52.PNG"/>                    | Edwin es un joven agricultor que cultiva lechuga y acelga para mercados locales. Evaluó AgroMercado positivamente, destacando lo intuitivo del proceso para publicar y editar productos. Agradeció que la plataforma lo notifica al instante cuando recibe pedidos. Considera que el historial y las calificaciones ayudan a generar confianza y seriedad en las transacciones. Propuso que se agregue una opción para duplicar publicaciones anteriores  |
+| **URL de la grabación**  | Ver grabacion               |
+| **Timming**         | 0:00 – 4:12                       |
 
+
+| Entrevista 3        | Diego Morales                     |
+|---------------------|----------------------------------|
+| **Artefacto**       | mobile                   |
+| **Edad**            | 54                           |
+| **Ocupación**       |  Comerciante de abarrotes                               |
+| **Distrito**        | Lima        |
+| **Fecha**           | 10-05-2025                             |
+| <img width=520 src="Assets/Entrevista53.PNG"/>                    | Diego, dueño de un negocio de abarrotes, encontró la plataforma ágil y fácil de navegar. Destacó la claridad de los filtros y la rapidez con la que pudo encontrar productos agrícolas. Consideró que la posibilidad de calificar a los productores genera mayor confianza para tomar decisiones de compra. Sugerencia principal: agregar una función para comparar precios entre diferentes vendedores. |
+| **URL de la grabación**  | Ver grabacion               |
+| **Timming**         | 0:00 – 4:20                       |
+
+
+| Entrevista 4        | Melany Reyes                     |
+|---------------------|----------------------------------|
+| **Artefacto**       | mobile                   |
+| **Edad**            | 28                           |
+| **Ocupación**       | Dueña de minimarket                               |
+| **Distrito**        | Lima         |
+| **Fecha**           | 12-05-2025                             |
+| <img width=520 src="Assets/Entrevista54.PNG"/>                    | Melany utiliza frecuentemente apps de pedidos y valoró que AgroMercado permite buscar por tipo de producto y región. Le gustó la claridad de la información en las publicaciones y el historial de pedidos. La función de calificación le pareció una herramienta útil para evaluar la experiencia de compra. Sugirió añadir una opción para guardar productos como favoritos para próximas compras.  |
+| **URL de la grabación**  | Ver grabacion               |
+| **Timming**         | 0:00 – 4:12                       |
+
+
+| Entrevista 5        | Oscar Ñahui                     |
+|---------------------|----------------------------------|
+| **Artefacto**       | Mobile                   |
+| **Edad**            | 21                           |
+| **Ocupación**       | Estudiante / comprador ocasional                               |
+| **Distrito**        | Huancayo         |
+| **Fecha**           | 13-05-2025                             |
+| <img width=520 src="Assets/Entrevista55.PNG"/>                    | Oscar, comprador ocasional de productos frescos para su familia, accedió a AgroMercado desde su celular. Comentó que el proceso de búsqueda fue simple y rápido. Agradeció la confirmación tras enviar un pedido y valoró el sistema de reputación. Propuso incluir una guía rápida para nuevos usuarios.                       |
+| **URL de la grabación**  | Ver grabacion               |
+| **Timming**         | 0:00 – 4:12                       |
+
+
+| Entrevista 6        | Tomasa lopez                      |
+|---------------------|----------------------------------|
+| **Artefacto**       | web                   |
+| **Edad**            | 45                           |
+| **Ocupación**       | Productora de platanos                               |
+| **Distrito**        | San martin        |
+| **Fecha**           | 11-05-2025                             |
+| <img width=520 src="Assets/Entrevista56.PNG"/>                    | Tomasa, productora de plátano de la selva peruana, comentó que el proceso de registro fue comprensible, aunque necesitó apoyo inicial. Agradeció la claridad para ingresar precios, ubicación y cantidad. Le pareció importante que el sistema la notifique ante nuevos pedidos. Considera útil el panel de resumen de ventas para llevar un registro simple. Siente confianza al operar por la plataforma y ve un gran potencial para aumentar sus ventas.                       |
+| **URL de la grabación**  | Ver grabacion               |
+| **Timming**         | 0:00 – 3:55                      |
 
 ## Conclusiones y recomendaciones. 
 
