@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/46b3ae26-a733-4157-8815-e631a97f797d)<h3 align="center"> Informe del trabajo final </h3>
+
 <h3 align="center"> Universidad Peruana de Ciencias Aplicadas </h3>
 
 <br>
