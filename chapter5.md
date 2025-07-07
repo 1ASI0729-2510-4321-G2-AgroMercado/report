@@ -1976,11 +1976,17 @@ https://github.com/1ASI0729-2510-4321-G2-AgroMercado/AgroMercado-Backend.git
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-- **Frontend:**  
-  https://github.com/1ASI0729-2510-4321-G2-AgroMercado/AgroMercado-Frontend.git  
-- **Backend:**  
-  https://github.com/1ASI0729-2510-4321-G2-AgroMercado/AgroMercado-Backend.git
+Durante este **Sprint** se logró realizar el despliegue funcional de las nuevas funcionalidades desarrolladas, tanto del **Front End Web Application** como del **Backend** y la **Base de Datos** conectada mediante **Docker**.
 
+<img  src="Assets/Login_deployment1.PNG"  alt="Login_deployment1"  min-width="400"  max-width="900"/>
+<img  src="Assets/Login_deployment2.PNG"  alt="Login_deployment2"  min-width="400"  max-width="900"/>
+
+-  📎**Enlaces de despliegue:**  
+  https://agromercado.joaquin-aguilar.com/register                                 
+- 💻**Frontend:**  
+  https://github.com/1ASI0729-2510-4321-G2-AgroMercado/AgroMercado-Frontend.git
+- 🖥️**Backend:**  
+  https://github.com/1ASI0729-2510-4321-G2-AgroMercado/AgroMercado-Backend.git
 ---
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint
@@ -1995,7 +2001,10 @@ https://github.com/1ASI0729-2510-4321-G2-AgroMercado/AgroMercado-Backend.git
 
 ## 5.3. Validation Interviews
 
-Entrevistas para obtener retroalimentación de usuarios objetivo (productores y compradores).
+Las entrevistas de validación tuvieron como objetivo recoger retroalimentación directa de los usuarios objetivo de la plataforma AgroMercado. Se enfocaron en evaluar la funcionalidad, usabilidad y valor percibido de las características implementadas en la aplicación web.
+
+Para ello, se consideraron distintos perfiles: productores agropecuarios de zonas rurales y compradores de productos agrícolas en contextos urbanos, principalmente comerciantes minoristas.
+
 
 ---
 
@@ -2029,6 +2038,21 @@ Entrevistas para obtener retroalimentación de usuarios objetivo (productores y 
 - ¿Ayuda el sistema de reputación a confiar más?
 - ¿Recomendaría esta plataforma?
 - ¿Qué mejoraría para facilitar la compra?
+
+### 5.3.2. Registro de entrevistas
+
+| Entrevista 1        | Rosa Huaman                      |
+|---------------------|----------------------------------|
+| **Artefacto**       | Diego Morales                    |
+| **Edad**            | Mobile                           |
+| **Ocupación**       | 54                               |
+| **Distrito**        | Comerciante de abarrotes         |
+| **Fecha**           | Lima                             |
+|                     | 10-05-2025                       |
+| **URL de la grabación**  | Ver grabacion               |
+| **Timming**         | 10-05-2025                       |
+
+
 
 
 ## Conclusiones y recomendaciones. 
