@@ -2112,6 +2112,49 @@ Para ello, se consideraron distintos perfiles: productores agropecuarios de zona
 | **URL de la grabación**  | Ver grabacion               |
 | **Timming**         | 0:00 – 3:55                      |
 
+### 5.3.3. Evaluaciones según heurísticas
+
+**1. Visibilidad del estado del sistema**  
+Los entrevistados 1, 2 y 3 reportan ausencia de barras de progreso al subir imágenes múltiples; se necesitan indicadores de carga y confirmaciones temporales de publicación.
+
+**2. Concordancia entre el sistema y el mundo real**  
+El vocabulario agrario es claro, pero el entrevistado 3 pide iconos con mayor contraste y el 1 sugiere imágenes más representativas de variedades de papa; pictogramas específicos y colores accesibles reforzarían la conexión con el entorno rural.
+
+**3. Control y libertad del usuario**  
+El entrevistado 2 requiere un botón “deshacer” tras editar y publicar, el 4 busca cancelar filtros rápidamente; ofrecer acciones reversibles y atajos visibles aumentará la sensación de control.
+
+**4. Consistencia y estándares**  
+El entrevistado 4 detecta diferencias en la ubicación de filtros entre web y app, mientras el 6 nota distinto orden de columnas; se necesita homogeneizar patrones visuales y de interacción en todas las plataformas.
+
+**5. Prevención de errores**  
+El entrevistado 5 encuentra mensajes genéricos al ingresar precios fuera de rango y el 6 pudo dejar campos vacíos; validaciones en tiempo real con mensajes correctivos concretos deben impedir publicaciones defectuosas.
+
+**6. Reconocimiento antes que recuerdo**  
+Se solicita plantillas para publicaciones repetidas y el 1 aprecia ver su historial al registrar nuevas cosechas; autocompletar campos frecuentes y sugerir descripciones basadas en registros previos reducirá la carga de memoria.
+
+**7. Flexibilidad y eficiencia de uso**  
+Un entrevistado desea guardar filtros frecuentes y el 4 programar órdenes automáticas; atajos de teclado en web, gestos “swipe” en móvil y reordenación programada acelerarán tareas repetitivas.
+
+**8. Estética y diseño minimalista**  
+La mayoría elogió la limpieza visual, pero se menciona poco contraste en pantallas pequeñas; reducir botones secundarios y aumentar contraste en modo “bajo consumo de datos” preservará claridad.
+
+**9. Ayuda a reconocer, diagnosticar y recuperarse de errores**  
+El entrevistado 6 no encontró guía tras varios intentos fallidos de contraseña; se requiere un flujo de recuperación con mensajes orientativos y enlaces directos a ayuda contextual o chatbot.
+
+**10. Ayuda y documentación**  
+Los agricultores acceden al FAQ inicial, pero demandan soporte contextual; un ícono persistente “¿Necesitas ayuda?” y video-tutoriales breves en baja resolución facilitarán la auto-asistencia con conexión limitada.
+
+---
+
+**Conclusión**  
+Las entrevistas muestran aceptación general de AgroMercado y señalan oportunidades claras: retroalimentación en tiempo real, consistencia entre plataformas y ayuda contextual. Resolver estos puntos fortalecerá la experiencia y ampliará la adopción en entornos rurales y urbanos.
+
+---
+
+### 5.4. Video About-the-Product
+
+
+
 ## Conclusiones y recomendaciones. 
 
 El desarrollo del proyecto AgroMercado permitió estructurar una solución tecnológica enfocada en mejorar el comercio agrícola rural mediante la conexión directa entre productores y compradores, reduciendo la dependencia de intermediarios y mejorando los ingresos de los agricultores. A través del análisis de usuarios, el modelado de dominio, la definición arquitectónica y el diseño de interfaces accesibles, se validó que la plataforma responde a las necesidades reales del sector, considerando las limitaciones de conectividad y la baja experiencia digital de los usuarios. Asimismo, se diseñaron flujos simples, funciones clave como reputación, historial de ventas y alertas de compra, y se validaron mediante entrevistas estructuradas, confirmando la viabilidad y pertinencia de AgroMercado como una herramienta de digitalización inclusiva para el agro peruano.
