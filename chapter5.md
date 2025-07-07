@@ -1,4 +1,4 @@
-<h3 align="center"> Informe del trabajo final </h3>
+![image](https://github.com/user-attachments/assets/46b3ae26-a733-4157-8815-e631a97f797d)<h3 align="center"> Informe del trabajo final </h3>
 <h3 align="center"> Universidad Peruana de Ciencias Aplicadas </h3>
 
 <br>
@@ -2153,6 +2153,11 @@ Las entrevistas muestran aceptación general de AgroMercado y señalan oportunid
 
 ### 5.4. Video About-the-Product
 
+<img  src="Assets/aboutproduct.PNG"  alt="Login_deployment1"  min-width="400"  max-width="700"/>
+
+
+-  📎**Link del about the product:**  
+     https://youtu.be/7U7iEYUTfgI
 
 
 ## Conclusiones y recomendaciones. 
