@@ -2005,6 +2005,108 @@ Las entrevistas de validación tuvieron como objetivo recoger retroalimentación
 
 Para ello, se consideraron distintos perfiles: productores agropecuarios de zonas rurales y compradores de productos agrícolas en contextos urbanos, principalmente comerciantes minoristas.
 
+###  5.2.4. Sprint 4
+### 5.2.4.1. Sprint Planning 4.
+## 📝 Sprint Planning Background
+
+- **Date:** 2025-06-15  
+- **Time:** 16:00  
+- **Location:** Modalidad remota por Discord  
+- **Prepared By:** Integrantes de AgroMercado  
+- **Attendees (Planning Meeting):**
+  - Alejos Jesus, Anyelo Bill  
+  - Horna Silva, Fabio Ernesto  
+  - Joaquin Andre Lechuga Aguilar  
+
+---
+
+## Sprint 4 - Review Summary
+
+Durante el segundo Sprint se corrigió el manejo de rutas, se mejoró la implementación de seguridad en el backend y se implementó `logo.dev`.
+
+---
+
+## Sprint 4 - Retrospective Summary
+
+### Fortalezas
+- Se mantuvo una buena comunicación.
+- Se distribuyeron correctamente las tareas entre los integrantes.
+
+### Debilidades
+- Aún se identifican oportunidades de mejora en la organización del tiempo.
+
+### Acciones de mejora
+- Estimaciones más precisas de tareas.
+- Reuniones más frecuentes de sincronización.
+
+---
+
+## Sprint Goal & User Stories
+
+- **Sprint 4 Goal:** Finalizar la integración de requisitos.  
+- **Sprint 4 Velocity:** 30  
+- **Sum of Story Points:** 30
+## 5.2.4.2. Aspect Leaders and Collaborators
+
+| Alumno                          | Actividad                         |
+|----------------------------------|------------------------------------|
+| Fabio Horna Silva               | Mejoras en la seguridad del API   |
+| Anyelo Bill Alejos Jesus        | Mejoras de ruteo en el frontend   |
+| Joaquin Andre Lechuga Aguilar  | Integración de API externa        |
+
+### 5.2.4.3. Sprint Backlog 4
+
+| Id   | Título de la HU                             | Id Tarea | Título de la Tarea                        | Descripción                                                                                   | Estimación (Horas) | Asignado a        | Estado |
+|------|---------------------------------------------|----------|--------------------------------------------|-----------------------------------------------------------------------------------------------|--------------------|-------------------|--------|
+| HU14 | Fortalecimiento de seguridad en API propia  | T16      | Auditoría de endpoints sensibles           | Revisar endpoints críticos para aplicar validaciones y verificar políticas de acceso          | 3                  | Fabio Horna       | Done   |
+| HU14 | Fortalecimiento de seguridad en API propia  | T17      | Refactorizar autenticación JWT             | Revisar expiración de tokens y flujo de refresh token seguro                                  | 3                  | Fabio Horna       | Done   |
+| HU15 | Optimización de rutas en Angular            | T18      | Modularización de rutas por roles          | Reestructurar las rutas Angular dividiendo por roles (agrario, empresa, admin)                | 2                  | Anyelo Alejos     | Done   |
+| HU15 | Optimización de rutas en Angular            | T19      | Lazy loading y prefetching                 | Aplicar carga perezosa y prefetch para módulos de rutas principales                           | 3                  | Anyelo Alejos     | Done   |
+| HU15 | Optimización de rutas en Angular            | T20      | Redirecciones y manejo de rutas inválidas  | Definir rutas 404 y redirecciones en base a permisos del usuario                              | 4                  | Joaquin Lechuga   | DONE   |
+| HU16 | Implementar API externa                     | T15      | Implementación de logo.dev                 | Implementar servicio y componente, añadir token al archivo de configuración                   | 5                  | Joaquin Lechuga   | DONE   |
+
+### 5.2.4.4. Development Evidence for Sprint Review
+
+| Repository       | Branch | Commit ID | Author           | Message                        | Time ago |
+|------------------|--------|-----------|------------------|--------------------------------|----------|
+| Backend          | Main   |           | Fabio Horna      | Seguridad Backend realizada    |    4      |
+| Frontend         | Main   |           | Anyelo Alejos    | Funcionalidad rutas mejorada   |    4      |
+| Frontend          | Main   |           | Joaquin Lechuga  | API externa integrada         |    4      |
+
+
+### 5.2.4.5. Execution Evidence for Sprint Review
+
+Esta sección está documentada a través de las mejoras técnicas implementadas durante el Sprint 3, las cuales fortalecen:
+
+- La integración externa.
+- La seguridad de la API propia.
+- La estructura de rutas en el frontend Angular.
+
+Las tareas realizadas incluyeron:
+
+- Integración de nuevas APIs externas con manejo robusto de errores y validación de datos.
+- Refactorización del sistema de autenticación mediante JWT y aplicación de control de acceso por roles.
+- Modularización de rutas en Angular, con soporte para carga perezosa (lazy loading) y redirecciones seguras.
+
+Toda la documentación técnica y la evidencia del código fuente se encuentran registradas en los respectivos módulos del repositorio backend y frontend del proyecto:  
+**[https://github.com/1ASI0729-2510-4321-G2-AgroMercado/](https://github.com/1ASI0729-2510-4321-G2-AgroMercado/)**
+
+---
+### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+**Frontend:**  
+[https://github.com/1ASI0729-2510-4321-G2-AgroMercado/AgroMercado-Frontend.git](https://github.com/1ASI0729-2510-4321-G2-AgroMercado/AgroMercado-Frontend.git)
+
+**Backend:**  
+[https://github.com/1ASI0729-2510-4321-G2-AgroMercado/AgroMercado-Backend.git](https://github.com/1ASI0729-2510-4321-G2-AgroMercado/AgroMercado-Backend.git)
+
+### 5.2.4.8. Team Collaboration Insights during Sprint
+
+| Alumno                        | Actividad                                                                                          |
+|-------------------------------|-----------------------------------------------------------------------------------------------------|
+| Horna Silva Fabio            | Desarrollo del formulario de publicación y APIs REST para productos, pedidos, login y logout.     |
+| Alejos Jesus, Anyelo         | Implementación del sistema de búsqueda, API para envío de pedidos y pruebas de integración.        |
+| Lechuga Aguilar, Joaquín Andre    | Apoyo en el despliegue de la aplicación, pruebas funcionales, y documentación de endpoints desarrollados. |
 
 ---
 
@@ -2193,4 +2295,3 @@ Instituto Nacional de Estadística e Informática (INEI). (2022). Encuesta Nacio
 Ministerio de la Producción. (2024). Sector Restaurantes y Abastecimiento Alimentario. https://www.produce.gob.pe
 
 The Yield Lab. (2023). AgTech Adoption and Small Farmers in Latin America. https://theyieldlab.com/agtech-latin-america-2023
-
